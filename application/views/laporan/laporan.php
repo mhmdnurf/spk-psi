@@ -10,8 +10,16 @@
     table, th, td {
         border: 1px solid black;
     }
+    logo {
+        display: flex,
+        justify-content: center,
+        align-items: center,
+    }
 </style>
 <body>
+    <div style="display: flex; justify-content: center; align-items: center; margin-top: 40px;">
+        <img src="https://sttindonesia.ac.id/wp-content/uploads/2021/01/Logo-STTI-Tanjungpinang.png" alt="" width="50px">
+    </div>
 <h4>Hasil Akhir Perankingan</h4>
 <table border="1" width="100%">
 	<thead>
