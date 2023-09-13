@@ -41,12 +41,14 @@
                 $data = [
                     'keterangan' => $this->input->post('keterangan'),
                     'kode_kriteria' => $this->input->post('kode_kriteria'),
-                    'jenis' => $this->input->post('jenis')
+                    'jenis' => $this->input->post('jenis'),
+                    'nilai_kepentingan' => $this->input->post('nilai_kepentingan')
                 ];
                 
                 $this->form_validation->set_rules('keterangan', 'Keterangan', 'required');
                 $this->form_validation->set_rules('kode_kriteria', 'Kode Kriteria', 'required');
                 $this->form_validation->set_rules('jenis', 'Jenis', 'required');
+                $this->form_validation->set_rules('nilai_kepentingan', 'Nilai Kepentingan', 'required');
 
                 
     
@@ -79,7 +81,8 @@
             $data = array(
                 'keterangan' => $this->input->post('keterangan'),
                 'kode_kriteria' => $this->input->post('kode_kriteria'),
-                'jenis' => $this->input->post('jenis')
+                'jenis' => $this->input->post('jenis'),
+                'nilai_kepentingan' => $this->input->post('nilai_kepentingan')
             );
 
             $this->Kriteria_model->update($id_kriteria, $data);

@@ -36,6 +36,10 @@
 						<option value="Cost">Cost</option>						
 					</select>
 				</div>
+				<div class="form-group col-md-6">
+					<label class="font-weight-bold">Nilai Kepentingan</label>
+					<input autocomplete="off" type="text" name="nilai_kepentingan" required class="form-control"/>
+				</div>
 			</div>
 		</div>
 		<div class="card-footer text-right">

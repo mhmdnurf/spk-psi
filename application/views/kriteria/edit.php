@@ -34,6 +34,11 @@
 						<option value="Cost" <?php if($kriteria->jenis == "Cost"){ echo 'selected'; } ?>>Cost</option>						
 					</select>
 				</div>
+
+				<div class="form-group col-md-6">
+					<label class="font-weight-bold">Nilai Kepentingan</label>
+					<input autocomplete="off" type="text" name="nilai_kepentingan" value="<?php echo $kriteria->nilai_kepentingan ?>" required class="form-control"/>
+				</div>
 			</div>
 		</div>
 		<div class="card-footer text-right">
